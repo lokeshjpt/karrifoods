@@ -1,0 +1,153 @@
+<div style="padding-top:56px">
+  <mat-card>
+
+    <mat-card-header>Orders</mat-card-header>
+  <mat-card-content>
+    <br/>
+    <mat-tab-group>
+        <mat-tab label="Pending">
+        <br/>
+       <b>Order</b># 84353245234 <br/>
+        <b>Status</b>:   Processing <br/>
+        <mat-progress-bar mode="determinate" value="40" color="warn"></mat-progress-bar>
+
+        <br/>
+        <table mat-table [dataSource]="transactions" class="mat-elevation-z8">
+            <!-- Item Column -->
+            <ng-container matColumnDef="item">
+              <th mat-header-cell *matHeaderCellDef> Item </th>
+              <td mat-cell *matCellDef="let transaction"> {{transaction.item}} </td>
+              <td mat-footer-cell *matFooterCellDef></td>
+            </ng-container>
+
+
+            <ng-container matColumnDef="qty">
+                <th mat-header-cell *matHeaderCellDef> Qty </th>
+                <td mat-cell *matCellDef="let transaction"> {{transaction.qty}} </td>
+                <td mat-footer-cell *matFooterCellDef> Total </td>
+              </ng-container>
+
+
+            <!-- Cost Column -->
+            <ng-container matColumnDef="cost">
+              <th mat-header-cell *matHeaderCellDef> Cost </th>
+              <td mat-cell *matCellDef="let transaction"> {{transaction.cost | currency}} </td>
+              <td mat-footer-cell *matFooterCellDef> {{getTotalCost() | currency}} </td>
+            </ng-container>
+
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+            <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+          </table>
+
+          <br/>
+          <b>Order</b># 84353245234 <br/>
+           <b>Status</b>:   Ready For Pick-up <br/>
+           <mat-progress-bar mode="determinate" value="80"></mat-progress-bar>
+           <br/>
+           <table mat-table [dataSource]="transactions" class="mat-elevation-z8">
+               <!-- Item Column -->
+               <ng-container matColumnDef="item">
+                 <th mat-header-cell *matHeaderCellDef> Item </th>
+                 <td mat-cell *matCellDef="let transaction"> {{transaction.item}} </td>
+                 <td mat-footer-cell *matFooterCellDef></td>
+               </ng-container>
+
+
+               <ng-container matColumnDef="qty">
+                   <th mat-header-cell *matHeaderCellDef> Qty </th>
+                   <td mat-cell *matCellDef="let transaction"> {{transaction.qty}} </td>
+                   <td mat-footer-cell *matFooterCellDef> Total </td>
+                 </ng-container>
+
+
+               <!-- Cost Column -->
+               <ng-container matColumnDef="cost">
+                 <th mat-header-cell *matHeaderCellDef> Cost </th>
+                 <td mat-cell *matCellDef="let transaction"> {{transaction.cost | currency}} </td>
+                 <td mat-footer-cell *matFooterCellDef> {{getTotalCost() | currency}} </td>
+               </ng-container>
+
+               <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+               <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+               <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+             </table>
+
+        </mat-tab>
+        <mat-tab label="Completed">
+        <br/>
+
+
+        <b>Order</b># 84353245234 <br/>
+         <b>Status</b>:   Completed <br/>
+         <mat-progress-bar mode="determinate" value="100" class="my-color"></mat-progress-bar>
+         <br/>
+         <table mat-table [dataSource]="transactions" class="mat-elevation-z8">
+             <!-- Item Column -->
+             <ng-container matColumnDef="item">
+               <th mat-header-cell *matHeaderCellDef> Item </th>
+               <td mat-cell *matCellDef="let transaction"> {{transaction.item}} </td>
+               <td mat-footer-cell *matFooterCellDef></td>
+             </ng-container>
+
+
+             <ng-container matColumnDef="qty">
+                 <th mat-header-cell *matHeaderCellDef> Qty </th>
+                 <td mat-cell *matCellDef="let transaction"> {{transaction.qty}} </td>
+                 <td mat-footer-cell *matFooterCellDef> Total </td>
+               </ng-container>
+
+
+             <!-- Cost Column -->
+             <ng-container matColumnDef="cost">
+               <th mat-header-cell *matHeaderCellDef> Cost </th>
+               <td mat-cell *matCellDef="let transaction"> {{transaction.cost | currency}} </td>
+               <td mat-footer-cell *matFooterCellDef> {{getTotalCost() | currency}} </td>
+             </ng-container>
+
+             <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+             <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+             <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+           </table>
+
+           <br/>
+           <b>Order</b># 84353245234 <br/>
+            <b>Status</b>:   Completed <br/>
+            <mat-progress-bar mode="determinate" value="100" class="my-color"></mat-progress-bar>
+            <br/>
+            <table mat-table [dataSource]="transactions" class="mat-elevation-z8">
+                <!-- Item Column -->
+                <ng-container matColumnDef="item">
+                  <th mat-header-cell *matHeaderCellDef> Item </th>
+                  <td mat-cell *matCellDef="let transaction"> {{transaction.item}} </td>
+                  <td mat-footer-cell *matFooterCellDef></td>
+                </ng-container>
+
+
+                <ng-container matColumnDef="qty">
+                    <th mat-header-cell *matHeaderCellDef> Qty </th>
+                    <td mat-cell *matCellDef="let transaction"> {{transaction.qty}} </td>
+                    <td mat-footer-cell *matFooterCellDef> Total </td>
+                  </ng-container>
+
+
+                <!-- Cost Column -->
+                <ng-container matColumnDef="cost">
+                  <th mat-header-cell *matHeaderCellDef> Cost </th>
+                  <td mat-cell *matCellDef="let transaction"> {{transaction.cost | currency}} </td>
+                  <td mat-footer-cell *matFooterCellDef> {{getTotalCost() | currency}} </td>
+                </ng-container>
+
+                <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+              </table>
+
+        </mat-tab>
+
+      </mat-tab-group>
+
+    </mat-card-content>
+
+    </mat-card>
+</div>

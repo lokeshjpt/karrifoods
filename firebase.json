@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/karrifoods",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
