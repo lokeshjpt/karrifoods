@@ -20,6 +20,7 @@ import { LoginComponent } from './login/login.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 const routes: Routes = [
+
   {
     path: '',
     redirectTo: 'home',
