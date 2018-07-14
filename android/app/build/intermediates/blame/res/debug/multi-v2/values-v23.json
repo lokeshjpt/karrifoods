@@ -4,7 +4,7 @@
             "outputFile": "/Users/james/Documents/Lokesh/projects/karrifoods/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4317f266b937b1301783c4128b1e2778/res/values-v23/values-v23.xml",
+                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a0187bc2ff32c336d689f0e869213b6e/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

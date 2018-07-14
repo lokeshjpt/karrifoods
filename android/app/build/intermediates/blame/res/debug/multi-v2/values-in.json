@@ -4,7 +4,7 @@
             "outputFile": "/Users/james/Documents/Lokesh/projects/karrifoods/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
             "map": [
                 {
-                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4317f266b937b1301783c4128b1e2778/res/values-in/values-in.xml",
+                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a0187bc2ff32c336d689f0e869213b6e/res/values-in/values-in.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/332b0411747a084b107b83836400dbdb/res/values-in/values-in.xml",
+                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/477214f6f8001602c5b360cc6959e8a7/res/values-in/values-in.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

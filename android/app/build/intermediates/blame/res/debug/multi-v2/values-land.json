@@ -4,7 +4,7 @@
             "outputFile": "/Users/james/Documents/Lokesh/projects/karrifoods/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4317f266b937b1301783c4128b1e2778/res/values-land/values-land.xml",
+                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a0187bc2ff32c336d689f0e869213b6e/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/0f73be00d19ff8ef98aa56d1449a12ae/res/values-land/values-land.xml",
+                    "source": "/Users/james/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/7867e65d1a2fc80789022f2824862813/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

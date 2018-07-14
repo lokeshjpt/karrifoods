@@ -2,5 +2,5 @@
   "appId": "com.karrifoods.app",
   "appName": "karrifoods",
   "bundledWebRuntime": false,
-  "webDir": "dist/karrifoods"
+  "webDir": "dist"
 }

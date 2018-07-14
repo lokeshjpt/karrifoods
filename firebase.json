@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/karrifoods",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
